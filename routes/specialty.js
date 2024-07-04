@@ -1,7 +1,7 @@
 import express from "express";
-import { getSpecialtyAndDoctors } from "../controller/specialty.js";
+import { getSpecialityAndDoctors } from "../controller/specialty.js";
 const router = express.Router();
 
-router.get("/:specialty", getSpecialtyAndDoctors);
+router.get("/:speciality", getSpecialityAndDoctors);
 
 export default router;
