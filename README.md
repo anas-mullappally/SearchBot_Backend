@@ -45,7 +45,7 @@ Node.js, Express, Morgan, pg-pool
 
 ## Routes
 
-#### 1. `GET` /api/doctors/
+#### 1. `GET` /api/
 
 **Description:**
 Retrieve all the details of doctors relevant to the specified specialty.
@@ -53,7 +53,7 @@ Retrieve all the details of doctors relevant to the specified specialty.
 **Request:**
 
 - Method: `GET`
-- URL: `/api/doctors/:speciality `
+- URL: `/api/:speciality `
 - Headers: None
 
 **Response:**

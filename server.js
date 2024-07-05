@@ -17,6 +17,9 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Routes
+app.get("/", (req, res) => {
+  return res.send("connected successfully");
+});
 app.use("/api", specialtyRoutes);
 
 // Route not exist message
