@@ -1,8 +1,4 @@
-// db.js
-
 import Pool from "pg-pool";
-
-
 
 const pool = new Pool({
   user: process.env.PGUSER,
